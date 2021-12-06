@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>Simple Interest Calculator</title>
+</head>
+<body>
+    <h1 id="ek">Simple Interest Calculator</h1>
+    <br>
+    <h4>Enter the following details:</h4>
+    <div>
+        <h3 class="hum">Principal</h3>
+        <input type="number" id="amount" name="amount" class="bhai">
+        <h3 class="hum">Rate</h3>
+        <input type="number" id="percent" name="percent" class="bhai">
+        <h3 class="hum">Time</h3>
+        <input type="number" id="year" name="year" class="bhai"><br><br>
+        <button type="button" onclick="simpleInterestCalculator()">Calculate</button>
+        <button type="button" onclick="resetting()">Reset</button>
+        <p id="do"></p>
+    </div>
+</body>
+<script src="web.js"></script>
+</html>
